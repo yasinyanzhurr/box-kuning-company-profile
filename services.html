@@ -3,34 +3,35 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Box Kuning</title>
+
+    <!-- Tailwind HARUS di sini -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Box Kuning</h1>
+    <header class="bg-yellow-400 px-6 py-3">
+        <h1 class="text-2xl font-bold text-black">Box Kuning</h1>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="profile.html">Profile</a>
-        <a href="services.html">Services</a>
-        <a href="marketplace.html">Marketplace</a>
-        <a href="news.html">News</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
 
-    <main>
-        <h2>Services</h2>
-        <p>Konten halaman ini akan diisi nanti.</p>
+    <main class="p-6 pt-0">
+        <h2 class="text-xl font-bold">Selamat Datang</h2>
+        <p>Ini adalah website resmi Box Kuning.</p>
     </main>
 
-    <footer>
-        <p>© 2026 Box Kuning</p>
-    </footer>
+    <!-- FOOTER -->
+    <div id="footer"></div>
 
+    <!-- JS PALING BAWAH -->
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

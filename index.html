@@ -3,44 +3,140 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Box Kuning</title>
 
+    <!-- Tailwind HARUS di sini -->
     <script src="https://cdn.tailwindcss.com"></script>
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <header class="bg-yellow-400 p-6">
+    <header class="bg-yellow-400 px-6 py-3">
         <h1 class="text-2xl font-bold text-black">Box Kuning</h1>
     </header>
 
+    <!-- NAVBAR -->
+    <div id="navbar"></div>
 
-    <nav class="bg-gray-900 px-6 py-3">
-        <div class="flex space-x-6">
-            <a href="index.html" class="text-white hover:text-yellow-400">Home</a>
-            <a href="profile.html" class="text-white hover:text-yellow-400">Profile</a>
-            <a href="services.html" class="text-white hover:text-yellow-400">Services</a>
-            <a href="marketplace.html" class="text-white hover:text-yellow-400">Marketplace</a>
-            <a href="news.html" class="text-white hover:text-yellow-400">News</a>
-            <a href="contact.html" class="text-white hover:text-yellow-400">Contact</a>
-        </div>
-    </nav>
+    <main class="p-6">
 
+        <!-- HERO SECTION -->
+        <section class="bg-white py-10">
+            <div class="max-w-4xl mx-auto text-center">
 
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Solusi Digital & Layanan Profesional
+                </h1>
 
-    <main>
-        <section>
-            <h2>Selamat Datang</h2>
-            <p>Ini adalah website resmi Box Kuning.</p>
+                <p class="text-gray-600 text-lg mb-6">
+                    Box Kuning membantu bisnis dan individu dengan layanan digital,
+                    konsultasi, dan solusi yang praktis serta terpercaya.
+                </p>
+
+                <a href="contact.html" class="inline-block bg-yellow-400 text-black
+                          px-6 py-3 font-semibold rounded-md
+                          hover:bg-yellow-500 transition">
+                    Hubungi Kami
+                </a>
+
+            </div>
         </section>
+
+        <!-- RINGKASAN LAYANAN -->
+        <section class="py-12 bg-gray-50">
+            <div class="max-w-6xl mx-auto px-4">
+
+                <h2 class="text-2xl font-bold text-center text-gray-900 mb-8">
+                    Layanan Kami
+                </h2>
+
+                <div class="grid gap-6 md:grid-cols-3">
+
+                    <!-- Card 1 -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                        <h3 class="text-lg font-semibold mb-2">
+                            Konsultasi
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Pendampingan dan solusi strategis sesuai kebutuhan Anda.
+                        </p>
+                        <a href="services.html" class="text-yellow-500 font-medium">
+                            Selengkapnya →
+                        </a>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                        <h3 class="text-lg font-semibold mb-2">
+                            Layanan Digital
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Website, sistem, dan solusi digital yang praktis.
+                        </p>
+                        <a href="services.html" class="text-yellow-500 font-medium">
+                            Selengkapnya →
+                        </a>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                        <h3 class="text-lg font-semibold mb-2">
+                            Marketplace
+                        </h3>
+                        <p class="text-gray-600 mb-4">
+                            Produk dan jasa siap pakai untuk kebutuhan Anda.
+                        </p>
+                        <a href="marketplace.html" class="text-yellow-500 font-medium">
+                            Lihat Produk →
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="bg-yellow-400 py-12">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+
+                <h2 class="text-2xl md:text-3xl font-bold text-black mb-4">
+                    Siap Bekerja Sama dengan Box Kuning?
+                </h2>
+
+                <p class="text-black text-lg mb-6">
+                    Konsultasikan kebutuhan Anda bersama tim kami.
+                    Kami siap membantu dengan solusi yang tepat.
+                </p>
+
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="contact.html" class="bg-black text-white px-6 py-3 rounded-md font-semibold
+                      hover:bg-gray-900 transition">
+                        Hubungi Kami
+                    </a>
+
+                    <a href="https://wa.me/628xxxxxxxxxx" target="_blank" class="border-2 border-black text-black px-6 py-3 rounded-md font-semibold
+                      hover:bg-black hover:text-white transition">
+                        WhatsApp
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
     </main>
 
-    <footer>
-        <p>© 2026 Box Kuning</p>
-    </footer>
 
+    <!-- FOOTER -->
+    <div id="footer"></div>
+
+    <!-- JS PALING BAWAH -->
+    <script src="assets/js/main.js"></script>
 </body>
-
 
 </html>
